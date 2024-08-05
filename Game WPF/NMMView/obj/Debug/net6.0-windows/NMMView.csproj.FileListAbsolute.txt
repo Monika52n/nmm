@@ -1,0 +1,50 @@
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\bin\Debug\net6.0-windows\NMMView.exe
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\bin\Debug\net6.0-windows\NMMView.deps.json
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\bin\Debug\net6.0-windows\NMMView.runtimeconfig.json
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\bin\Debug\net6.0-windows\NMMView.dll
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\bin\Debug\net6.0-windows\NMMView.pdb
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\bin\Debug\net6.0-windows\ModelNineMenMorris.dll
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\bin\Debug\net6.0-windows\ModelNineMenMorris.pdb
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\View\DictionaryCircleButton.baml
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\View\MainWindow.g.cs
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView_MarkupCompile.cache
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView_MarkupCompile.lref
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\View\MainWindow.baml
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.g.resources
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.AssemblyInfo.cs
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.csproj.CopyComplete
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.dll
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\ref\NMMView.dll
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.pdb
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\NMMView.genruntimeconfig.cache
+C:\Users\Acer\Desktop\eva\beadando1\Game WPF 2\NMMView\obj\Debug\net6.0-windows\refint\NMMView.dll
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\bin\Debug\net6.0-windows\NMMView.exe
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\bin\Debug\net6.0-windows\NMMView.deps.json
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\bin\Debug\net6.0-windows\NMMView.runtimeconfig.json
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\bin\Debug\net6.0-windows\NMMView.dll
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\bin\Debug\net6.0-windows\NMMView.pdb
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\bin\Debug\net6.0-windows\ModelNineMenMorris.dll
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\bin\Debug\net6.0-windows\ModelNineMenMorris.pdb
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\View\DictionaryCircleButton.baml
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\View\MainWindow.g.cs
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView_MarkupCompile.cache
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView_MarkupCompile.lref
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\View\MainWindow.baml
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.g.resources
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.AssemblyInfo.cs
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.csproj.CopyComplete
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.dll
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\refint\NMMView.dll
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.pdb
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\NMMView.genruntimeconfig.cache
+C:\Users\Acer\Desktop\régi_félévek\3.félév\eva\beadandok\Game WPF\NMMView\obj\Debug\net6.0-windows\ref\NMMView.dll

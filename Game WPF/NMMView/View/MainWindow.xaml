@@ -1,0 +1,97 @@
+﻿<Window x:Class="NMMView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NMMView" xmlns:viewmodel="clr-namespace:NMMView.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:NMMModelView}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="620" Width="580"
+        MinHeight="620" MinWidth="580" MaxHeight="620" MaxWidth="580">
+    <Window.Resources>
+        <ResourceDictionary Source="DictionaryCircleButton.xaml" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="File">
+                <MenuItem Header="Load" Command="{Binding LoadGameCommand}"/>
+                <MenuItem Header="Save" Command="{Binding SaveGameCommand}"/>
+                <MenuItem Header="New Game" Command="{Binding NewGameCommand}"/>
+                <MenuItem Header="Exit" Command="{Binding ExitGameCommand}"/>
+            </MenuItem>
+        </Menu>
+        <Canvas Grid.Row="1">
+            <Rectangle
+                Width="483"
+                Height="483"
+                Stroke="Black" StrokeThickness="4"
+                Canvas.Left="24.5"
+                Canvas.Top="24.5"/>
+            <Rectangle
+                Width="329"
+                Height="329"
+                Stroke="Black" StrokeThickness="4"
+                Canvas.Left="101.5"
+                Canvas.Top="101.5"/>
+            <Rectangle
+                Width="175"
+                Height="175"
+                Stroke="Black" StrokeThickness="4"
+                Canvas.Left="178.5"
+                Canvas.Top="178.5"/>
+            <Line
+                X1="266" Y1="24.5"
+                X2="266" Y2="178.5"
+                Stroke="Black"
+                StrokeThickness="4"/>
+            <Line
+                X1="266" Y1="353.5"
+                X2="266" Y2="507.5"
+                Stroke="Black"
+                StrokeThickness="4"/>
+            <Line
+                X1="24.5" Y1="266"
+                X2="178.5" Y2="266"
+                Stroke="Black"
+                StrokeThickness="4"/>
+            <Line
+                X1="353.5" Y1="266"
+                X2="507.5" Y2="266"
+                Stroke="Black"
+                StrokeThickness="4"/>
+            <ItemsControl  ItemsSource="{Binding Fields}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Command="{Binding PushCircleButton}" 
+                                CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=TabIndex}"
+                                Height="{Binding Size}"
+                                Width="{Binding Size}"
+                                Style="{StaticResource CircleButton}"
+                                TabIndex="{Binding Ind}">
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemContainerStyle>
+                    <Style>
+                        <Setter Property="Canvas.Left" Value="{Binding Left}" />
+                        <Setter Property="Canvas.Top" Value="{Binding Top}" />
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+            </ItemsControl>
+        </Canvas>
+        <StatusBar Grid.Row="2">
+            <StatusBarItem>
+                <TextBlock Name="Status" Text="{Binding Status}"></TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

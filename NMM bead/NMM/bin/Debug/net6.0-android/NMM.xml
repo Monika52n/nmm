@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NMM</name>
+    </assembly>
+    <members>
+        <member name="M:NMM.Persistence.NMMStore.GetFilesAsync">
+            <summary>
+            Fájlok lekérdezése.
+            </summary>
+            <returns>A fájlok listja.</returns>
+        </member>
+        <member name="M:NMM.Persistence.NMMStore.GetModifiedTimeAsync(System.String)">
+            <summary>
+            Módosítás idejének lekérdezése.
+            </summary>
+            <param name="name">A fájl neve.</param>
+            <returns>Az utols módosítás ideje.</returns>
+        </member>
+        <member name="M:NMM.ViewModel.DelegateCommand.#ctor(System.Action{System.Object})">
+            <summary>
+            Parancs létrehozása.
+            </summary>
+            <param name="execute">Végrehajtandó tevékenység.</param>
+        </member>
+        <member name="M:NMM.ViewModel.DelegateCommand.#ctor(System.Func{System.Object,System.Boolean},System.Action{System.Object})">
+            <summary>
+            Parancs létrehozása.
+            </summary>
+            <param name="canExecute">Végrehajthatóság feltétele.</param>
+            <param name="execute">Végrehajtandó tevékenység.</param>
+        </member>
+        <member name="E:NMM.ViewModel.DelegateCommand.CanExecuteChanged">
+            <summary>
+            Végrehajthatóság változásának eseménye.
+            </summary>
+        </member>
+        <member name="M:NMM.ViewModel.DelegateCommand.CanExecute(System.Object)">
+            <summary>
+            Végrehajthatóság ellenőrzése
+            </summary>
+            <param name="parameter">A tevékenység paramétere.</param>
+            <returns>Igaz, ha a tevékenység végrehajtható.</returns>
+        </member>
+        <member name="M:NMM.ViewModel.DelegateCommand.Execute(System.Object)">
+            <summary>
+            Tevékenység végrehajtása.
+            </summary>
+            <param name="parameter">A tevékenység paramétere.</param>
+        </member>
+        <member name="M:NMM.ViewModel.DelegateCommand.RaiseCanExecuteChanged">
+            <summary>
+            Végrehajthatóság változásának eseménykiváltása.
+            </summary>
+        </member>
+        <member name="T:NMM.ViewModel.StoredGameBrowserViewModel">
+            <summary>
+            Tárolt játékkezelő nézetmodellje.
+            </summary>
+        </member>
+        <member name="E:NMM.ViewModel.StoredGameBrowserViewModel.GameLoading">
+            <summary>
+            Betöltés eseménye.
+            </summary>
+        </member>
+        <member name="E:NMM.ViewModel.StoredGameBrowserViewModel.GameSaving">
+            <summary>
+            Mentés eseménye.
+            </summary>
+        </member>
+        <member name="P:NMM.ViewModel.StoredGameBrowserViewModel.NewSaveCommand">
+            <summary>
+            Új játék parancsa.
+            </summary>
+        </member>
+        <member name="P:NMM.ViewModel.StoredGameBrowserViewModel.StoredGames">
+            <summary>
+            Tárolt játékok gyűjteménye.
+            </summary>
+        </member>
+        <member name="M:NMM.ViewModel.StoredGameBrowserViewModel.#ctor(NMMModel.Model.StoredGameBrowserModel)">
+            <summary>
+            Tárolt játékkezelő nézetmodelljének példányosítása.
+            </summary>
+            <param name="model">A modell.</param>
+        </member>
+        <member name="M:NMM.ViewModel.StoredGameBrowserViewModel.UpdateStoredGames">
+            <summary>
+            Tárolt játékok frissítése.
+            </summary>
+        </member>
+        <member name="T:NMM.ViewModel.StoredGameViewModel">
+            <summary>
+            Tárolt játék nézetmodell típusa.
+            </summary>
+        </member>
+        <member name="P:NMM.ViewModel.StoredGameViewModel.Name">
+            <summary>
+            Név lekérdezése.
+            </summary>
+        </member>
+        <member name="P:NMM.ViewModel.StoredGameViewModel.Modified">
+            <summary>
+            Módosítás idejének lekérdezése.
+            </summary>
+        </member>
+        <member name="P:NMM.ViewModel.StoredGameViewModel.LoadGameCommand">
+            <summary>
+            Betöltés parancsa.
+            </summary>
+        </member>
+        <member name="P:NMM.ViewModel.StoredGameViewModel.SaveGameCommand">
+            <summary>
+            Mentés parancsa.
+            </summary>
+        </member>
+        <member name="M:NMM.ViewModel.ViewModelBase.#ctor">
+            <summary>
+            Nézetmodell ősosztály példányosítása.
+            </summary>
+        </member>
+        <member name="E:NMM.ViewModel.ViewModelBase.PropertyChanged">
+            <summary>
+            Tulajdonság változásának eseménye.
+            </summary>
+        </member>
+        <member name="M:NMM.ViewModel.ViewModelBase.OnPropertyChanged(System.String)">
+            <summary>
+            Tulajdonság változása ellenőrzéssel.
+            </summary>
+            <param name="propertyName">Tulajdonság neve.</param>
+        </member>
+    </members>
+</doc>

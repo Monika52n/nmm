@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ecf131bd-03a0-4813-84a6-262bb1ee51ba": {
+      "ProjectGuid": "ecf131bd-03a0-4813-84a6-262bb1ee51ba",
+      "DisplayName": "Game",
+      "ColorIndex": 0
+    },
+    "2b3f2181-3ae5-4e85-b152-ace7f6292b14": {
+      "ProjectGuid": "2b3f2181-3ae5-4e85-b152-ace7f6292b14",
+      "DisplayName": "ModelNineMenMorris",
+      "ColorIndex": 1
+    },
+    "62fae383-f295-403c-b6cc-766409ee3b55": {
+      "ProjectGuid": "62fae383-f295-403c-b6cc-766409ee3b55",
+      "DisplayName": "TestNMM_Model",
+      "ColorIndex": 2
+    },
+    "912601f2-d3b7-47f5-8f0e-8db0b525a0e1": {
+      "ProjectGuid": "912601f2-d3b7-47f5-8f0e-8db0b525a0e1",
+      "DisplayName": "NMMView",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NMMModel</name>
+    </assembly>
+    <members>
+        <member name="T:NMMModel.Model.StoredGameBrowserModel">
+            <summary>
+            Tárolt játékok kezelő modellje.
+            </summary>
+        </member>
+        <member name="E:NMMModel.Model.StoredGameBrowserModel.StoreChanged">
+            <summary>
+            Tároló megváltozásának eseménye.
+            </summary>
+        </member>
+        <member name="P:NMMModel.Model.StoredGameBrowserModel.StoredGames">
+            <summary>
+            A tárolt játékok listájának lekérdezése.
+            </summary>
+        </member>
+        <member name="M:NMMModel.Model.StoredGameBrowserModel.UpdateAsync">
+            <summary>
+            Tárolt játékok frissítése.
+            </summary>
+        </member>
+        <member name="T:NMMModel.Model.StoredGameModel">
+            <summary>
+            Tárolt játék modellje.
+            </summary>
+        </member>
+        <member name="P:NMMModel.Model.StoredGameModel.Name">
+            <summary>
+            Név lekérdezése, vagy beállítása.
+            </summary>
+        </member>
+        <member name="P:NMMModel.Model.StoredGameModel.Modified">
+            <summary>
+            Módosítás idejének lekérdezése, vagy beállítása.
+            </summary>
+        </member>
+        <member name="T:NMMModel.Persistence.IStore">
+            <summary>
+            Játék tároló interfésze.
+            </summary>
+        </member>
+        <member name="M:NMMModel.Persistence.IStore.GetFilesAsync">
+            <summary>
+            Fájlok lekérdezése.
+            </summary>
+            <returns>A fájlok listája.</returns>
+        </member>
+        <member name="M:NMMModel.Persistence.IStore.GetModifiedTimeAsync(System.String)">
+            <summary>
+            Módosítás idejének lekrédezése.
+            </summary>
+            <param name="name">A fájl neve.</param>
+            <returns>Az utolsó módosítás ideje.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NMM.View.GamePageWin"
+             xmlns:viewmodel="clr-namespace:NMM.ViewModel"
+             xmlns:drawable="clr-namespace:NMM.View"
+             Title="NMM">
+    <ContentPage.Resources>
+        <ResourceDictionary Source="CircleButton.xaml"/>
+    </ContentPage.Resources>
+    <ScrollView>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Button Text="Options" 
+                    Command="{Binding ExitGameCommand}" 
+                    Style="{StaticResource MainButtonStyleSmaller}" 
+                    Grid.Row="0" 
+                    HorizontalOptions="Start" />
+            <Label Grid.Row="0" Text="{Binding Status}" HorizontalOptions="End" Margin="0,15,15,0"></Label>
+            <Image Source="board3.png"  Grid.Row="1" WidthRequest="550" HeightRequest="550" ></Image>
+            <CollectionView WidthRequest="550" 
+                            HeightRequest="570"
+                            Grid.Row="1" 
+                            ItemsSource="{Binding Fields}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout 
+                            Orientation="Vertical"
+                            Span="7"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Button 
+                            Command ="{Binding PushCircleButton}" 
+                            CommandParameter="{Binding Ind}"
+                            Style="{StaticResource FieldStyle}"
+                            Margin="0,15,0,15"
+                            HeightRequest="50"
+                            WidthRequest="50"/>    
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView> 
+        </Grid>
+    </ScrollView>
+</ContentPage>
