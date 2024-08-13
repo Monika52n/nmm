@@ -1,2 +1,0 @@
-C:\Users\Acer\Desktop\régi_félévek\other\.NET\NMM bead\NMM\NMM.csproj;x64
-C:\Users\Acer\Desktop\régi_félévek\other\.NET\NMM bead\NMMModel\NMMModel.csproj;neutral
